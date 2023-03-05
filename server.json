@@ -11,7 +11,7 @@
 		{
 			"id": 2,
 			"description": "Snacks",
-			"type": "outcome",
+			"type": "expense",
 			"category": "Food",
 			"price": 15,
 			"createdAt": "2023-02-11T14:11:00.527Z"
