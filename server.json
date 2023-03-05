@@ -5,7 +5,7 @@
 			"description": "Site development",
 			"type": "income",
 			"category": "Sell",
-			"price": "4000",
+			"price": 4000,
 			"createdAt": "2023-02-13T16:02:00.527Z"
 		},
 		{
@@ -13,7 +13,7 @@
 			"description": "Snacks",
 			"type": "outcome",
 			"category": "Food",
-			"price": "15",
+			"price": 15,
 			"createdAt": "2023-02-11T14:11:00.527Z"
 		}
 	]

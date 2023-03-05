@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { Transaction } from '../../types/transaction';
 export const TransactionsContainer = styled.div`
 	width: 100%;
 	max-width: 1120px;
@@ -31,7 +31,7 @@ export const TransactionsTable = styled.table`
 `;
 
 interface PriceHighlightProps {
-	variant: 'income' | 'expense';
+	variant: Transaction['type'];
 }
 export const PriceHighlight = styled.td<PriceHighlightProps>`
 	color: ${(props) =>
