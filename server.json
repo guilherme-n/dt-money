@@ -1,20 +1,84 @@
 {
-	"transactions": [
-		{
-			"id": 1,
-			"description": "Site development",
-			"type": "income",
-			"category": "Sell",
-			"price": 4000,
-			"createdAt": "2023-02-13T16:02:00.527Z"
-		},
-		{
-			"id": 2,
-			"description": "Snacks",
-			"type": "expense",
-			"category": "Food",
-			"price": 15,
-			"createdAt": "2023-02-11T14:11:00.527Z"
-		}
-	]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Site development",
+      "type": "income",
+      "category": "Sell",
+      "price": 4000,
+      "createdAt": "2023-02-13T16:02:00.527Z"
+    },
+    {
+      "id": 2,
+      "description": "Snacks",
+      "type": "expense",
+      "category": "Food",
+      "price": 15,
+      "createdAt": "2023-02-11T14:11:00.527Z"
+    },
+    {
+      "description": "Stocks",
+      "price": 500,
+      "category": "Investiment",
+      "type": "income",
+      "createdAt": "2023-03-06T02:31:52.007Z",
+      "id": 3
+    },
+    {
+      "description": "Television",
+      "price": 800,
+      "category": "House",
+      "type": "expense",
+      "createdAt": "2023-03-06T02:33:14.313Z",
+      "id": 4
+    },
+    {
+      "description": "Playstation 5",
+      "price": 500,
+      "category": "Gaming",
+      "type": "expense",
+      "createdAt": "2023-03-06T02:33:44.425Z",
+      "id": 5
+    },
+    {
+      "description": "Software consultancy",
+      "price": 3000,
+      "category": "Work",
+      "type": "income",
+      "createdAt": "2023-03-06T02:48:36.356Z",
+      "id": 6
+    },
+    {
+      "description": "test",
+      "price": 1,
+      "category": "a",
+      "type": "income",
+      "createdAt": "2023-03-06T02:49:36.649Z",
+      "id": 7
+    },
+    {
+      "description": "more money",
+      "price": 10,
+      "category": "test",
+      "type": "income",
+      "createdAt": "2023-03-06T02:50:51.435Z",
+      "id": 8
+    },
+    {
+      "description": "study",
+      "price": 300,
+      "category": "study",
+      "type": "expense",
+      "createdAt": "2023-03-06T02:51:36.493Z",
+      "id": 9
+    },
+    {
+      "description": "rocketseat",
+      "price": 350,
+      "category": "Study",
+      "type": "expense",
+      "createdAt": "2023-03-06T03:10:07.387Z",
+      "id": 10
+    }
+  ]
 }
