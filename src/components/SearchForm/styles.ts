@@ -34,10 +34,15 @@ export const SearchFormContainer = styled.form`
 		transition-property: background-color, color, border-color;
 		transition-duration: 0.2s;
 
-		&:hover {
+		&:not(:disabled):hover {
 			background: ${(props) => props.theme['green-500']};
 			border-color: ${(props) => props.theme['green-500']};
 			color: ${(props) => props.theme.white};
+		}
+
+		&:disabled {
+			cursor: not-allowed;
+			opacity: 0.6;
 		}
 	}
 `;
