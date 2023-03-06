@@ -5,8 +5,8 @@ import {
 	useEffect,
 	useState,
 } from 'react';
-import { api } from '../../lib/axios';
-import { Transaction } from '../../types/transaction';
+import { api } from '../lib/axios';
+import { Transaction } from '../types/transaction';
 
 const TransactionsContext = createContext({} as TransactionsContextType);
 

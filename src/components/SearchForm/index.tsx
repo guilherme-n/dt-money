@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { SearchFormContainer } from './styles';
 import * as zod from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
-import { useTransactions } from '../contexts/TransactionsContext';
+import { useTransactions } from '../../contexts/TransactionsContext';
 
 const searchFormSchema = zod.object({
 	query: zod.string(),

@@ -1,4 +1,4 @@
-import { useTransactions } from '../../components/contexts/TransactionsContext';
+import { useTransactions } from '../../contexts/TransactionsContext';
 import { Header } from '../../components/Header';
 import { SearchForm } from '../../components/SearchForm';
 import { Summary } from '../../components/Summary';
